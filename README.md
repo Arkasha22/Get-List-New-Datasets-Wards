@@ -7,12 +7,12 @@ This allows users to create a list of Electoral Ward datasets from PHE FingerTip
 It carries out the following actions in the following order  
 - Connect to AGOL  
 - Import Required Modules
-- Create Variables  
+- Create FGDB & Variables  
 - Import Metadata and OldMetadata CSV files  
 - Merge Both Metadata DataFrames  
-- Import list of GPs  
-- Merge Metadata and GP list Data Frames
-- Create Data Frame of NCL ICB GPs
+- Import list of Wards  
+- Merge Metadata and Ward list Data Frames
+- Location of NCL wards
 - Number of iterations needed
 - Creation of loop to process FingerTips Data
 - Initial creation of the service - GP Services
